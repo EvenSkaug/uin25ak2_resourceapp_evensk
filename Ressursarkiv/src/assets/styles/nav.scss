@@ -1,0 +1,34 @@
+nav {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+
+    a {
+        flex: 1;
+    }
+}
+
+.whitebutton {
+    background: #fff;
+    color: #2A324B;
+    padding-block: 20px;
+    padding-inline: 30px;
+    width: 100%;
+    border: none;
+    font-size: 20px;
+    white-space: nowrap;
+}
+
+.bluebutton {
+    color: #fff;
+    background: #2A324B;
+    padding-block: 20px;
+    padding-inline: 30px;
+    width: 100%;
+    border: none;
+    font-size: 20px;
+    white-space: nowrap;
+}

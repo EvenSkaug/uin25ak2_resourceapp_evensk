@@ -1,0 +1,45 @@
+body{
+    background-color: #E1E5EE;
+}
+
+header {
+    margin-inline: 150px;
+    padding: 0;
+    margin-top: 80px;
+}
+
+main{
+    margin-inline: 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+#content {
+    margin: 100px;
+    padding: 0;
+    padding-top: 20px;
+
+    h2 {
+        color: #2A324B;
+        font-size: 40px;
+        
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    a {
+        font-size: 20px;
+        
+    }
+
+    a:visited {
+        color: #3b60d1;
+    }
+}
+
+#contentarea {
+    background-color: #fff;
+    padding-bottom: 150px;
+}  
