@@ -7,11 +7,7 @@ function App() {
   return (
     <Layout>
       <Routes>
-        <Route path="/" element={<Resources />}></Route>
-        <Route path="/css" element={<Resources />}></Route>
-        <Route path="/javascript" element={<Resources />}></Route>
-        <Route path="/react" element={<Resources />}></Route>
-        <Route path="/sanity" element={<Resources />}></Route>
+        <Route path=":category" element={<Resources />}></Route>
       </Routes>
     </Layout>
   )

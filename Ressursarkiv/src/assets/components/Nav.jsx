@@ -8,7 +8,7 @@ export default function Nav() {
             <Link to="css" className="bluebutton">CSS</Link>
             <Link to="javascript" className="bluebutton">JAVASCRIPT</Link>
             <Link to="react" className="bluebutton">REACT</Link>
-            <Link to="sanity" className="bluebutton">SANITY</Link>
+            <Link to="headless-cms" className="bluebutton">HEADLESS-CMS</Link>
         </nav>
     );
 }
