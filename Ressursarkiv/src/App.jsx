@@ -7,6 +7,9 @@ function App() {
   return (
     <Layout>
       <Routes>
+        {/*Route som lastes som standby når man åpner siden*/}
+        <Route path="/" element={<h1>Velg en kategori!</h1>}></Route>
+        {/*Route til de ulike kategori sidene som bruker "category" fra resources for å velge hvilken kategoriside som skal vises*/}
         <Route path=":category" element={<Resources />}></Route>
       </Routes>
     </Layout>

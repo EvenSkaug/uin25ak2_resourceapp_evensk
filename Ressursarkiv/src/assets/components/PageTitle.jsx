@@ -5,3 +5,5 @@ export default function PageTitle( {category} ) {
         <h2>{category}</h2>
     );
 }
+
+//Komponent som bruker "catergory" propen fra resources komponentet til å skrive ut tittelen på siden.
